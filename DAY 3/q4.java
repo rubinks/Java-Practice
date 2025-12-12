@@ -1,13 +1,15 @@
 import java.util.Scanner;
-public class q1 {
+public class q4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
         
-        if(a > b)
-            System.out.println(a + " is greatest");
+        int diff = a - b;
+        
+        if(diff % 2 == 0)
+            System.out.println("Difference is Even");
         else
-            System.out.println(b + " is greatest");
+            System.out.println("Difference is Odd");
     }
 }
