@@ -7,7 +7,7 @@ public class armstrong {
         int temp=n;
         int rev=0;
 
-        while(n>0)
+        while(n>0)                       //153 ( 153 = 1^3+5^3+3^3 = 153 .it is armstrong..)
         {
             int rem=n%10;
             rev=rev +(rem*rem*rem);

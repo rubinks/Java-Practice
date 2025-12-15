@@ -9,7 +9,7 @@ public class  spynumber {
     int product=1;
     while(n>0)
     {
-        int rem=n%10;
+        int rem=n%10;          //sum of number=product of number..
         sum=sum+rem;
         product=product*rem;
         n=n/10;

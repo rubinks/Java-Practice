@@ -13,7 +13,7 @@ public class magicnumber {
             n=n/10;
         }
        
-        int s=sum;
+        int s=sum;              //1729 (1729 = 1+7+2+9 =19 rev= 91 .19*91 = 1729.. magic number)
         int k=0;
         while(s>0)
         {

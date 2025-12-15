@@ -10,7 +10,7 @@ public class strongnumber {
         while(n>0)
         {
             int rem=n%10;
-            for(int i=1;i<=rem;i++)
+            for(int i=1;i<=rem;i++)      //145( 5!+4!=1!=145) same means strong number
             {
                 sum=sum*i;
             }
