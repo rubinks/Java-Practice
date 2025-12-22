@@ -4,15 +4,25 @@ public class q1 {
     {
         Scanner sc = new Scanner(System.in);       
         int n = sc.nextInt();
+        int a=sc.nextInt();
+        char c=(char)a;
 
-        for(int i=1;i<=n;i++)
+      for(int i=1;i<=n;i++)
+      {
+        for(int j=1;j<=n;j++)
         {
-            for(int j=1;j<=n;j++)
-            {
-                System.out.print("*");
-            }
-            System.out.println();
+          if(i+j >= n+1)
+          {
+            System.out.print(c+" ");
+            c++;
+          }
+          else
+          {
+            System.out.print("  ");
+          }
         }
+        System.out.println();
+      }
     }
     
 }

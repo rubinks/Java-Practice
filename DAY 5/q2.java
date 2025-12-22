@@ -4,6 +4,8 @@ public class q2 {
     {
         Scanner sc = new Scanner(System.in);       
         int n = sc.nextInt();
+        int a = sc.nextInt();
+        char ch = (char)a;
 
         for(int i=1;i<=n;i++)
         {
@@ -11,7 +13,8 @@ public class q2 {
             {
                 if(i==1 || j==1 || i==n || j==n)
                 {
-                     System.out.print("* ");
+                     System.out.print(ch+" ");
+                     ch++;
                 }
                 else
                     System.out.print("  ");
